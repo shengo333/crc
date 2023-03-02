@@ -1,0 +1,99 @@
+/* Styling for the first page */
+
+body {
+    background-color: #f7f7f7;
+  }
+  
+  #user-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #user-list li {
+    display: inline-block;
+  }
+  
+  li button {
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;    
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  li button:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  /* Styling for the second page */
+  
+  h1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  #user-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #user-details .user-info {
+    width: 50%;
+  }
+  
+  #user-details .user-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #user-details .user-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #load-posts-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  #load-posts-btn:hover {
+    background-color: #0062cc;
+  }
+  
+  #user-posts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
